@@ -3,7 +3,7 @@ RESPONSIVE WEB DEVELOPMENT - 2024
 
 Criar em Javascript
 
-(1) Faça uma mensagem de 'Olá Mundo’
+(1) Faça uma mensagem de "Olá Mundo"
 
 (2) Faça uma saída de soma de 2 inteiros
 
