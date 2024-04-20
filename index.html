@@ -13,10 +13,10 @@
         <h1>Atividades JavaScript</h1>
 
         <div class="question">
-            <h3>(1) Faça uma mensagem de 'Olá Mundo'</h3>
-            <button onclick="showCode(1)">Mostrar Código</button>
+            <h3> (1) Faça uma mensagem de 'Olá Mundo' </h3>
+            <button onclick="showCode(1)"> Mostrar Código </button>
             <div class="output">
-                <p id="output1">Olá Mundo</p>
+                <p id="output1"> Olá Mundo </p>
             </div>
             <div id="code1" class="answer">
                 <p>Código JavaScript:</p>
@@ -26,48 +26,43 @@
 
         <div class="question">
             <element class="container">
-            <h3>(2) Faça uma saída de soma de 2 inteiros</h3>
+            <h3> (2) Faça uma saída de soma de 2 inteiros </h3>
             <div class="input">
                 <label for="num1">Número 1:</label>
                 <input type="number" id="num1" value="5">
                 <label for="num2">Número 2:</label>
                 <input type="number" id="num2" value="3">
-                <button onclick="calculateSum()">Calcular Soma</button>
+                <button onclick="calculateSum()"> Calcular < /button>
             </div>
             <div class="output" id="output2"></div>
-            <button onclick="showCode(2)">Mostrar Código</button>
+            <button onclick="showCode(2)"> Mostrar Código </button>
             <div id="code2" class="answer">
                 <p>Código JavaScript:</p>
-                <pre>function calculateSum() {
+    <pre>function calculateSum() {
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     var soma = num1 + num2;
-    document.getElementById('output2').innerText = 'A soma de ' + num1 + ' e ' + num2 + ' é: ' + soma;
-}</pre>
+    document.getElementById('output2').innerText = 'A soma de ' + num1 + ' e ' + num2 + ' é: ' + soma; }</pre>
             </div>
         </div>
 
         <div class="question" id="alt_id">
             <element class="container">
-            <h3>(3) Alterar a propriedade de um elemento por ID</h3>
+            <h3> (3) Alterar a propriedade de um elemento por ID</h3>
             <button onclick="changeColorById()">Alterar Propriedade</button>
         </div>
         
         <div class="question" name="alt_name">
             <element class="container">
-            <h3>(4) Alterar a propriedade de um elemento por nome</h3>
+            <h3> (4) Alterar a propriedade de um elemento por nome</h3>
             <button onclick="changeColorByName()">Alterar Propriedade</button>
         </div>
         
         <div class="question alt_class">
-            <h3>(5) Alterar a propriedade de um elemento por classe</h3>
+            <h3> (5) Alterar a propriedade de um elemento por classe</h3>
             <button onclick="changeColorByClass()">Alterar Propriedade</button>
         </div>
-        
-
     </div>
-
     <script src="script.js"></script>
 </body>
-
 </html>
