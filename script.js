@@ -16,23 +16,23 @@ function calculateSum() {
 
 function changeColorById() {
     var question = document.getElementById('alt_id').querySelector('h3');
-    var selectedColor = getRandomColor(); // Obter cor aleatória
+    var selectedColor = getRandomColor();
     question.style.transition = 'color 0.5s ease';
-    question.style.color = selectedColor; // Alterar a cor diretamente
+    question.style.color = selectedColor;
 }
 
 function changeColorByName() {
     var question = document.getElementsByName('alt_name')[0].querySelector('h3');
-    var selectedColor = getRandomColor(); // Obter cor aleatória
+    var selectedColor = getRandomColor();
     question.style.transition = 'color 0.5s ease';
-    question.style.color = selectedColor; // Alterar a cor diretamente
+    question.style.color = selectedColor;
 }
 
 function changeColorByClass() {
     var question = document.querySelector('.alt_class').querySelector('h3');
-    var selectedColor = getRandomColor(); // Obter cor aleatória
+    var selectedColor = getRandomColor();
     question.style.transition = 'color 0.5s ease';
-    question.style.color = selectedColor; // Alterar a cor diretamente
+    question.style.color = selectedColor;
 }
 
 function getRandomColor() {
