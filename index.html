@@ -39,19 +39,17 @@
 
 <pre> 
     function calculateSum() {
-        var num1 = parseFloat(document.getElementById('num1').value);
-        var num2 = parseFloat(document.getElementById('num2').value);
+            var num1 = parseFloat(document.getElementById('num1').value);
+            var num2 = parseFloat(document.getElementById('num2').value);
     
         if (isNaN(num1) || isNaN(num2)) {
-            document.getElementById('output2').innerText = 'Por favor, insira dois números válidos.';
+                document.getElementById('output2').innerText = 'Por favor, insira dois números válidos.';
         } else {
             var soma = num1 + num2;
-            document.getElementById('output2').innerText = 'A soma de ' + num1 + ' e ' + num2 + ' é: ' + soma;
-        }
-    }
+                document.getElementById('output2').innerText = 'A soma de ' + num1 + ' e ' + num2 + ' é: ' + soma;}}
 </pre>
-            </div>
-        </div>
+</div>
+</div>
 
         <div class="question" id="alt_id">
             <element class="container">
@@ -70,8 +68,7 @@
             <button onclick="changeColorByClass()"> Alterar Propriedade </button>
         </div>
         
-
-    </div>
+ </div>
 
     <script src="script.js"></script>
 </body>
